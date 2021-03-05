@@ -63,9 +63,35 @@ footer{
 
 }
 
-    
+ul{
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
 
-@media (max-width:60px){
+li a{
+    display:block;
+    color: rgb(158, 118, 23);
+    padding: 5 px 25px;
+    text-decoration: none;
+    text-align: center;
+    height: 45px;
+    font-size: 22px;
+    }
+    
+    
+    li a.active{
+    background-color: inherit;
+    color: #f30000;
+    }
+    
+    li a:hover:not(.active){
+    background-color:inherit;
+    color: #ff0000;
+    }
+
+@media (max-width:600px){
     .row{
         -webkit-flex-direction:colum;
         flex-direction: column;
