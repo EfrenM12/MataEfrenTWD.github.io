@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-body{ 
-    max-width: 1150px;
-    margin:auto;
-    background-color: #ffffff;
-}
 header{
     color:rgb(158, 118, 23);
     background-color:#ffffff;
